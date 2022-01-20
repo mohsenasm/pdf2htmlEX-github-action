@@ -20,12 +20,12 @@ jobs:
       - name: Checkout repo content
         uses: actions/checkout@v2
       - name: Convert PDF to HTML
-        uses: mohsenasm/pdf2htmlEX-github-action@v1
+        uses: mohsenasm/pdf2htmlEX-github-action@main
         with:
           zoom: '1.3'
           filepath: 'resume.pdf'
 ```
 
-The `v1` in the above command is a tag in this repo.
+The `@main` in the above command is the current branch of the repo.
 
 Afterward, you can use other actions to work with the newly created HTML file. Like [action-gh-release](https://github.com/softprops/action-gh-release) or [github-action-push-to-another-repository](https://github.com/cpina/github-action-push-to-another-repository).
