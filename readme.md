@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repo content
         uses: actions/checkout@v2
       - name: Convert PDF to HTML
-        uses: mohsenasm/test-github-actions@v1
+        uses: mohsenasm/pdf2htmlEX-github-action@v1
         with:
           zoom: '1.3'
           filename: 'resume.pdf'
