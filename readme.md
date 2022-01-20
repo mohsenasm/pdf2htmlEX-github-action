@@ -23,7 +23,7 @@ jobs:
         uses: mohsenasm/pdf2htmlEX-github-action@v1
         with:
           zoom: '1.3'
-          filename: 'resume.pdf'
+          filepath: 'resume.pdf'
 ```
 
 The `v1` in the above command is a tag in this repo.
